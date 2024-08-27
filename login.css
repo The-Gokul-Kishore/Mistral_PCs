@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header, .nav ul li a, button {
+    background: #000;
+    color: #fff;
+}
+
+.header {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 20px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth {
+    background: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+.auth h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.auth form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.auth input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth button {
+    padding: 12px 25px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.auth button:hover {
+    background: #444;
+}
+
+.auth p {
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+}
